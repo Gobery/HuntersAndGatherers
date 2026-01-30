@@ -1,6 +1,6 @@
 package com.github.MoonAndStuff.ability.skill.ultimate;
 
-import com.github.MoonAndStuff.TensuraAddonExample;
+import com.github.MoonAndStuff.hag;
 import com.github.manasmods.manascore.api.skills.ManasSkill;
 import com.github.manasmods.manascore.api.skills.ManasSkillInstance;
 import com.github.manasmods.tensura.ability.SkillHelper;
@@ -34,7 +34,7 @@ public class ExampleUltimateSkill extends Skill {
      * @return
      */
     public ResourceLocation getSkillIcon() {
-        return new ResourceLocation(TensuraAddonExample.MODID, "textures/skill/ultimate/example_ultimate.png");
+        return new ResourceLocation(hag.MODID, "textures/skill/ultimate/example_ultimate.png");
     }
 
     public ExampleUltimateSkill() {

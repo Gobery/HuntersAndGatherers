@@ -1,6 +1,6 @@
 package com.github.MoonAndStuff.registry.race;
 
-import com.github.MoonAndStuff.TensuraAddonExample;
+import com.github.MoonAndStuff.hag;
 import com.github.MoonAndStuff.race.ExampleRace;
 import com.github.manasmods.tensura.registry.race.TensuraRaces;
 import net.minecraft.resources.ResourceLocation;
@@ -9,11 +9,11 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.IForgeRegistry;
 import net.minecraftforge.registries.RegisterEvent;
 
-@Mod.EventBusSubscriber(modid = TensuraAddonExample.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = hag.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class AllRaces {
 
     // Define the Race that you want to add here
-    public static final ResourceLocation EXAMPLE_RACE = new ResourceLocation(TensuraAddonExample.MODID, "example_race");
+    public static final ResourceLocation EXAMPLE_RACE = new ResourceLocation(hag.MODID, "example_race");
 
     /**
      * Make sure that you register the race, otherwise it will not show up correctly in the selection menu

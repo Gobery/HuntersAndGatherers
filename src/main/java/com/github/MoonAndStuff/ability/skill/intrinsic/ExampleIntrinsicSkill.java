@@ -1,6 +1,6 @@
 package com.github.MoonAndStuff.ability.skill.intrinsic;
 
-import com.github.MoonAndStuff.TensuraAddonExample;
+import com.github.MoonAndStuff.hag;
 import com.github.manasmods.manascore.api.skills.ManasSkillInstance;
 import com.github.manasmods.tensura.ability.skill.Skill;
 import net.minecraft.nbt.CompoundTag;
@@ -34,7 +34,7 @@ public class ExampleIntrinsicSkill extends Skill {
      * @return
      */
     public ResourceLocation getSkillIcon() {
-        return new ResourceLocation(TensuraAddonExample.MODID, "textures/skill/intrinsic/example_intrinsic.png");
+        return new ResourceLocation(hag.MODID, "textures/skill/intrinsic/example_intrinsic.png");
     }
 
     /**
