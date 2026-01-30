@@ -1,7 +1,7 @@
 package com.github.MoonAndStuff.registry.skill;
 
 
-import com.github.MoonAndStuff.hag;
+import com.github.MoonAndStuff.HuntersAndGatherers;
 import com.github.MoonAndStuff.ability.skill.common.LuckyCatch;
 import com.github.MoonAndStuff.ability.skill.extra.EfficientBait;
 import com.github.MoonAndStuff.ability.skill.intrinsic.ExampleIntrinsicSkill;
@@ -23,7 +23,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class AllSkills {
 
     // Here is that deferred register I was talking about. You don't need to change it at all
-    public static DeferredRegister<ManasSkill> skillRegistry = DeferredRegister.create(SkillAPI.getSkillRegistryKey(), hag.MODID);
+    public static DeferredRegister<ManasSkill> skillRegistry = DeferredRegister.create(SkillAPI.getSkillRegistryKey(), HuntersAndGatherers.MODID);
 
     public static void register(IEventBus modEventBus) {
         skillRegistry.register(modEventBus);

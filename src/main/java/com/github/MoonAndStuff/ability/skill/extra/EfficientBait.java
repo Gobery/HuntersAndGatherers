@@ -1,6 +1,6 @@
 package com.github.MoonAndStuff.ability.skill.extra;
 
-import com.github.MoonAndStuff.hag;
+import com.github.MoonAndStuff.HuntersAndGatherers;
 import com.github.manasmods.manascore.api.skills.ManasSkillInstance;
 import com.github.manasmods.tensura.ability.skill.Skill;
 import net.minecraft.resources.ResourceLocation;
@@ -29,7 +29,7 @@ public class EfficientBait extends Skill {
      * @return
      */
     public ResourceLocation getSkillIcon() {
-        return new ResourceLocation(hag.MODID, "textures/skill/common/example_common.png");
+        return new ResourceLocation(HuntersAndGatherers.MODID, "textures/skill/common/example_common.png");
     }
 
     // Here are some easy to change parameters to configure for the skill
