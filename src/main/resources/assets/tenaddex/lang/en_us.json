@@ -1,0 +1,21 @@
+{
+  "tenaddex.skill.example_ultimate": "Example Ultimate",
+  "tenaddex.skill.example_ultimate.description": "This is a description for the ultimate skill. Edit this description using the en_us.json file.",
+
+  "tenaddex.skill.lucky_catch": "Lucky Catch!!!",
+  "tenaddex.skill.example_common.description": "Get more bang for your buck while fishing!",
+
+  "tenaddex.skill.efficient_bait": "Efficient Bait",
+  "tenaddex.skill.example_extra.description": "Manifest bait that excites the sea and speeds up fishing time.",
+
+  "tenaddex.skill.example_unique": "Example Unique",
+  "tenaddex.skill.example_unique.description": "This is a description for the unique skill. Edit this description using the en_us.json file.",
+  "tenaddesx.skill.mode.example_unique.boom": "Boom",
+  "tenaddesx.skill.mode.example_unique.big_boom": "Bigger Boom",
+
+  "tenaddex.skill.example_intrinsic": "Example Intrinsic",
+  "tenaddex.skill.example_intrinsic.description": "This is a description for the intrinsic skill. Edit this description using the en_us.json file.",
+
+  "tenaddex.race.example_race": "Example Race",
+  "tenaddex.race.example_race.notes": "This is a fully custom race that you can change and control to your liking!"
+}
